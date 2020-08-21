@@ -1,0 +1,52 @@
+<!doctype html>
+<head>
+    <title>Project siren</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script>
+        var imgs = ['images/img.jpg','images/img2.jpg','images/army.jpg'];
+    
+        setInterval(testing,2000);
+        
+       function testing(){
+          var rand = Math.floor(Math.random()*imgs.length);
+           document.getElementById('slider').src = imgs[rand];
+       }
+    </script>
+
+    <div class="main">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="shop.html">Shop</a>
+        </nav>
+        <section id="section-left">
+          <ul>
+              <img scr="images/army.png">
+            
+    
+              </ul>
+        </section>
+        <section id="section-right">
+            <h2>2062 there has been a virus outbreak infecting thousands with what is only known
+As the g-virus witch has different effects on people based on how they get infected. 30 percent 
+Of the worlds population has been eradicated and most lost to infection.  
+</h2>
+        </section>
+        
+        <div class="bar">
+        </div>
+    </div>
+</body>
+
+      <section>
+     <h1>Contact</h1>
+     <p>This is some text</p>
+          
+          <img id="slider" src="images/army.jpg">
+
+
+</section>
+
+     
